@@ -925,3 +925,141 @@ body {
 .tutorial-section-small-bottom {
     padding-bottom: 20px;
 }
+
+/* sign in and register */
+.nav-tabs {
+    margin-bottom: 15px;
+}
+.sign-with {
+    margin-top: 25px;
+    padding: 20px;
+}
+div#OR {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #C2C2C2;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+    background: #DFDFDF;
+}
+
+/* login in and register */
+.nav-tabs {
+    margin-bottom: 15px;
+}
+.sign-with {
+    margin-top: 25px;
+    padding: 20px;
+}
+div#OR {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #C2C2C2;
+    border-radius: 50%;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+    background: #DFDFDF;
+}
+
+/* first modified in index.html, then copied here*/
+.dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .col-centered {
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .pwidth {
+        width: 80%;
+    }
+        .wrap {
+    width: auto;
+    height:auto;
+    margin: auto;
+    text-align:center;
+    position:relative;
+}
+    /* Hover */
+    .hover11 img {
+	   opacity: 1;
+	   -webkit-transition: .1s ease-in-out;
+	   transition: .1s ease-in-out;
+    }
+    
+    .hover11:hover img {
+	   opacity: .3;
+    }
+.btn-custom {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn-custom:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+    .custom-button {
+    position:absolute;
+    margin: auto;
+    top: 40%;
+    left:37%;
+    opacity: 0;
+    }
+    .hover11:hover .custom-button {
+        opacity: 1;
+    }
+    
+    .video-center {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    

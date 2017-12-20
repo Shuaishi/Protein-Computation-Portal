@@ -23,9 +23,98 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+<style>
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .col-centered {
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .pwidth {
+        width: 80%;
+    }
+        .wrap {
+    width: auto;
+    height:auto;
+    margin: auto;
+    text-align:center;
+    position:relative;
+}
+    /* Hover */
+    .hover11 img {
+	   opacity: 1;
+	   -webkit-transition: .1s ease-in-out;
+	   transition: .1s ease-in-out;
+    }
+    
+    .hover11:hover img {
+	   opacity: .3;
+    }
+.btn-custom {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+    .btn-custom:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+    .custom-button {
+    position:absolute;
+    margin: auto;
+    top: 40%;
+    left:37%;
+    opacity: 0;
+    }
+    .hover11:hover .custom-button {
+        opacity: 1;
+    }
+    
+    .video-center {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+</style>
 
 <body id="page-top" class="index">
-
+    
+    
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
@@ -73,7 +162,9 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
+   
+    
+    
     <!-- Header -->
     <header>
         <div class="container">
@@ -234,21 +325,9 @@
 
         </div>
     </section>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">Address：Peking University, Beijing, China</div>
-                <div class="col-md-2">Postcode：100871</div>
-                <div class="col-md-2">
-                </div>
-                <div class="col-md-4">
-                    Copyright 2018©Molecular Design Laboratory
-                </div>
-            </div>
-        </div>
-    </footer>
-
+    
+    
+    
     <!-- login and regester form -->
     <div class="modal fade" id="loginFormTest" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
@@ -366,6 +445,21 @@
         </div>
     </div>
 
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">Address：Peking University, Beijing, China</div>
+                <div class="col-md-2">Postcode：100871</div>
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-4">
+                    Copyright 2018©Molecular Design Laboratory
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
