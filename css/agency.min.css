@@ -915,7 +915,7 @@ body {
 }
 .catalogue ul {
     font-size: 18px;
-    margin-left: 30px;
+    margin-left: -10px;
 }
 
 .tutorial-section {
